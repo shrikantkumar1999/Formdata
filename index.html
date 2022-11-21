@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form ...</title>
+    <link rel="stylesheet" href="Form.css">
+    </head>
+<body class="container1"> 
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>  -->
+
+
+        <!-- <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script> -->
+
+    
+  <div class="container_div">
+   
+   
+    <form>
+     <div class="form1"><lable >Name : </lable><input id="fname"  class="form2" placeholder="Name"></div>
+     <div class="form1"><lable>Father Name : </lable><input id="fathername" class="form2" placeholder="Fathername" ></div> 
+     <div class="form1"><lable>Gender : </lable>
+       <select type="radio" class="form2" id="gender"required>
+        <option value="" selected >select</option>
+        <option  >Male</option>
+        <option>Female</option>
+        <option>other</option>
+       </select> </div>
+     <div class="form1"><lable>State : </lable>
+        <select id="state" name="country"  class="form2"  required>
+            <option value="" selected >select</option>
+            <option value="AN">Andaman and Nicobar Islands</option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="AR">Arunachal Pradesh</option>
+            <option value="AS">Assam</option>
+            <option value="BR">Bihar</option>
+            <option value="CH">Chandigarh</option>
+            <option value="CT">Chhattisgarh</option>
+            <option value="DN">Dadra and Nagar Haveli</option>
+            <option value="DD">Daman and Diu</option>
+            <option value="DL">Delhi</option>
+            <option value="GA">Goa</option>
+            <option value="GJ">Gujarat</option>
+            <option value="HR">Haryana</option>
+            <option value="HP">Himachal Pradesh</option>
+            <option value="JK">Jammu and Kashmir</option>
+            <option value="JH">Jharkhand</option>
+            <option value="KA">Karnataka</option>
+            <option value="KL">Kerala</option>
+            <option value="LA">Ladakh</option>
+            <option value="LD">Lakshadweep</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="MH">Maharashtra</option>
+            <option value="MN">Manipur</option>
+            <option value="ML">Meghalaya</option>
+            <option value="MZ">Mizoram</option>
+            <option value="NL">Nagaland</option>
+            <option value="OR">Odisha</option>
+            <option value="PY">Puducherry</option>
+            <option value="PB">Punjab</option>
+            <option value="RJ">Rajasthan</option>
+            <option value="SK">Sikkim</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="TG">Telangana</option>
+            <option value="TR">Tripura</option>
+            <option value="UP">Uttar Pradesh</option>
+            <option value="UT">Uttarakhand</option>
+            <option value="WB">West Bengal</option>
+        </select>
+    </div>
+     <div class="form1"> 
+    <lable>pincode : </lable><input id="pincode" class="form2"type="number" min="100000" max="999999"required >
+    </div>
+    <div class="form1"><lable>Mobile Number : </lable><input class="form2"id="mobile" name="mobile" type="number"  required></div> 
+    <div class="form1"><label>Email: </label><input class="form2" id="email" name="email" type="email"  > </div>
+<div class="butt"><button class="but" type="submit" id="submit"  >Submit</button> </div>
+
+
+
+    </form>
+ 
+
+
+
+
+<div class="contain">
+ 
+<a href="./data.html" class="but">check all list of all datalist</a>
+</div> </div>
+<script   src="app.js" ></script>
+<!-- <script  type="module" src="datab.js" ></script> -->
+    
+
+     
+</body>
+</html>

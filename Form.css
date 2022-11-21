@@ -1,0 +1,56 @@
+.container1{
+    height: 100vh;  display: flex;
+      padding: 0px;margin: 0px;
+    background-color: rgb(166, 213, 213); 
+}
+.container_div{  border-radius: 10px; padding-top: 20px; 
+    display: flex;align-items: center;
+    background-color: aliceblue;
+}
+  
+.form1{text-align: flex-start;
+    font-size: 27px;
+    margin: 10px;
+}
+.form2{text-align: flex-end;align-items: flex-end;
+    font-size: 27px;border: 1px solid rgb(91, 91, 242);border-radius: 10px;
+    margin: 10px;
+}
+
+input{
+    align-items: flex-end;
+}
+.but{border: none;border-radius: 10px;color: white;font-size: 30px;cursor: pointer;
+    background-color: rgb(77, 77, 232);
+}
+.butt{ text-align: center; padding: 5px;margin: 5px;
+    
+}
+.contain{
+    margin: 50px
+}
+.ser{
+border: none;border-radius: 10px;font-size: 25px;margin: 10px;
+
+}
+.ser1{
+    border: none;border-radius: 10px;font-size: 25px;margin: 10px;
+    cursor: pointer;
+    }
+a.but{
+padding: 0px 15px 0;
+text-decoration: none;
+
+}
+.but1{border: none;border-radius: 10px;color: white;font-size: 30px;cursor: pointer;
+    background-color: rgb(77, 77, 232);
+}
+
+a.but1{
+    padding: 0px 15px 0;
+    text-decoration: none;
+    
+    }
+    a.but1:hover{
+        color: white;text-decoration: none;
+    }
